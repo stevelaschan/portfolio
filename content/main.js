@@ -10,11 +10,14 @@ export const attributes = {
     secondButton: { icon: 'whatsapp', link: '/#contact', text: 'Contact' },
     social: {
       facebook: { link: 'https://facebook.com', show: true },
-      instagram: { link: 'https://instagram.com', show: true },
-      linkedin: { link: 'https://linkedin.com', show: true },
+      instagram: { link: 'https://instagram.com/stevelaschan/', show: true },
+      linkedin: {
+        link: 'https://at.linkedin.com/in/stefan-laschan-948490182',
+        show: true,
+      },
     },
     typed: [
-      { text: 'fast websites.' },
+      { text: 'creative websites.' },
       { text: 'beautiful logos.' },
       { text: 'great experiences.' },
     ],
@@ -22,7 +25,7 @@ export const attributes = {
   about: {
     heading: 'Who am I?',
     image: '/img/about.jpeg',
-    text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vel dapibus mi, sit amet consequat leo. Integer non dolor non elit sodales consequat. Integer tempor sollicitudin massa, vel sollicitudin ante dictum eu.\n',
+    text: 'I am a 28 year old Full Stack Web Developer. I finished my law degree in 2021 and worked at Deloitte for a year. In 2022 I decided to become a Web Developer and completed the Full Stack Web Developer Bootcamp at UpLeveled.\n',
   },
   features: [
     {
@@ -37,7 +40,7 @@ export const attributes = {
     },
     {
       icon: 'xml',
-      text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vel dapibus mi.\n',
+      text: 'Frontend (HTML, CSS and Javascript) and Backend (Node.js).\n',
       title: 'Web Development',
     },
   ],
@@ -82,5 +85,5 @@ export const attributes = {
     ],
     title: 'My work',
   },
-  footer: { text: '© John Doe' },
+  footer: { text: '© Stefan Laschan' },
 };
